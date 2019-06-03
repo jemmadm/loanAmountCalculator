@@ -9,17 +9,17 @@ public class LoanAmountCalculator {
         double outputLoanAmountWithInterest = 0;
         double outputLoan = 0;
         double outputInterest = 0;
-        for (int loanAmount = 0; loanAmountWithInterest < maximumLoanAmountWithInterest; loanAmount++) {
+        for (int loanAmount = 0; loanAmountWithInterest <= maximumLoanAmountWithInterest; loanAmount++) {
             loanAmountWithInterest = loanAmount + (interestRate / 100 * loanAmount);
 
-            if (loanAmountWithInterest < maximumLoanAmountWithInterest) {
+            if (loanAmountWithInterest <= maximumLoanAmountWithInterest) {
                 outputLoanAmountWithInterest = loanAmountWithInterest;
                 outputLoan = loanAmount;
                 outputInterest = loanAmountWithInterest - loanAmount;
             }
         }
         String loan = "The amount you will be able to borrow is £" + new DecimalFormat("##.##").format(outputLoan)
-                + ". The interest you will pay is £" + new DecimalFormat("##.##").format(outputInterest) + ". The total amount you will pay is £" + outputLoanAmountWithInterest + ".";
+                + ". The interest you will pay is £" + new DecimalFormat("##.##").format(outputInterest) + ". The total amount you will pay is £" + new DecimalFormat("##.##").format(outputLoanAmountWithInterest) + ".";
         System.out.println(loan);
         return loan;
     }
