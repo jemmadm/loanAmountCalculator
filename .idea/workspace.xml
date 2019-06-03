@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="691f5f41-5696-4698-b1e3-5b70829c6cc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LoanAmountCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LoanAmountCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/LoanAmountCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LoanAmountCalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoanAmountCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoanAmountCalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -21,13 +24,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/LoanAmountCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="162">
+              <caret line="21" column="172" selection-start-line="21" selection-start-column="172" selection-end-line="21" selection-end-column="172" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,23 +51,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LoanAmountCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="555">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew.bat">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -74,9 +77,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/LoanAmountCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LoanAmountCalculator.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/LoanAmountCalculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoanAmountCalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -103,6 +106,19 @@
               <item name="loan" type="b2602c69:ProjectViewProjectNode" />
               <item name="LoanAmountCalculator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoanAmountCalculator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="loan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoanAmountCalculator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="loan" type="b2602c69:ProjectViewProjectNode" />
@@ -159,34 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoanAmountCalculatorTest.doesCalculatorWork">
-    <configuration name="LoanAmountCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LoanAmountCalculator" />
-      <module name="loan.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoanAmountCalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;LoanAmountCalculatorTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.LoanAmountCalculatorTest.monthlyRepaymentIncludesPence">
     <configuration name="LoanAmountCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="loan.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -196,11 +185,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoanAmountCalculatorTest.doesCalculatorWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoanAmountCalculatorTest.hundredPercentInterestRate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="loan.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LoanAmountCalculatorTest" />
-      <option name="METHOD_NAME" value="doesCalculatorWork" />
+      <option name="METHOD_NAME" value="hundredPercentInterestRate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="loan.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoanAmountCalculatorTest" />
+      <option name="METHOD_NAME" value="monthlyRepaymentIncludesPence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoanAmountCalculatorTest.noInterestRate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="loan.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoanAmountCalculatorTest" />
+      <option name="METHOD_NAME" value="noInterestRate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoanAmountCalculatorTest.oneAndAHalfYears" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="loan.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoanAmountCalculatorTest" />
+      <option name="METHOD_NAME" value="oneAndAHalfYears" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -208,10 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoanAmountCalculatorTest.doesCalculatorWork" />
+        <item itemvalue="JUnit.LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" />
+        <item itemvalue="JUnit.LoanAmountCalculatorTest.oneAndAHalfYears" />
         <item itemvalue="JUnit.LoanAmountCalculatorTest" />
-        <item itemvalue="Application.LoanAmountCalculator" />
-        <item itemvalue="Gradle.LoanAmountCalculatorTest" />
+        <item itemvalue="JUnit.LoanAmountCalculatorTest.hundredPercentInterestRate" />
+        <item itemvalue="JUnit.LoanAmountCalculatorTest.noInterestRate" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +245,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559421560426</updated>
-      <workItem from="1559421562168" duration="7733000" />
+      <workItem from="1559421562168" duration="12606000" />
     </task>
     <task id="LOCAL-00001" summary="loan calculator added">
       <created>1559430854320</created>
@@ -234,56 +254,78 @@
       <option name="project" value="LOCAL" />
       <updated>1559430854320</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added .gitIgnore">
+      <created>1559430976464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559430976464</updated>
+    </task>
+    <task id="LOCAL-00003" summary=" .gitIgnore amended">
+      <created>1559431018195</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559431018195</updated>
+    </task>
+    <task id="LOCAL-00004" summary="more tests written and code amended accordingly">
+      <created>1559572548471</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559572548471</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoanAmountCalculatorTest - 2019.06.01 at 21h 52m 17s.xml">
+    <history-entry file="LoanAmountCalculatorTest - 2019.06.03 at 15h 57m 51s.xml">
       <configuration name="LoanAmountCalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_doesCalculatorWork - 2019.06.01 at 22h 44m 33s.xml">
-      <configuration name="LoanAmountCalculatorTest.doesCalculatorWork" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_doesCalculatorWork - 2019.06.01 at 22h 45m 30s.xml">
-      <configuration name="LoanAmountCalculatorTest.doesCalculatorWork" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_doesCalculatorWork - 2019.06.01 at 22h 45m 59s.xml">
-      <configuration name="LoanAmountCalculatorTest.doesCalculatorWork" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_doesCalculatorWork - 2019.06.01 at 22h 47m 02s.xml">
-      <configuration name="LoanAmountCalculatorTest.doesCalculatorWork" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_doesCalculatorWork - 2019.06.01 at 22h 48m 11s.xml">
-      <configuration name="LoanAmountCalculatorTest.doesCalculatorWork" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_doesCalculatorWork - 2019.06.01 at 22h 49m 16s.xml">
-      <configuration name="LoanAmountCalculatorTest.doesCalculatorWork" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanAmountCalculatorTest - 2019.06.02 at 00h 03m 24s.xml">
+    <history-entry file="LoanAmountCalculatorTest - 2019.06.03 at 15h 58m 03s.xml">
       <configuration name="LoanAmountCalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_doesCalculatorWork - 2019.06.02 at 00h 05m 59s.xml">
-      <configuration name="LoanAmountCalculatorTest.doesCalculatorWork" configurationId="JUnit" />
+    <history-entry file="LoanAmountCalculatorTest_oneAndAHalfYears - 2019.06.03 at 15h 58m 23s.xml">
+      <configuration name="LoanAmountCalculatorTest.oneAndAHalfYears" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_doesCalculatorWork - 2019.06.02 at 00h 06m 37s.xml">
-      <configuration name="LoanAmountCalculatorTest.doesCalculatorWork" configurationId="JUnit" />
+    <history-entry file="LoanAmountCalculatorTest_oneAndAHalfYears - 2019.06.03 at 15h 58m 29s.xml">
+      <configuration name="LoanAmountCalculatorTest.oneAndAHalfYears" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanAmountCalculatorTest_oneAndAHalfYears - 2019.06.03 at 15h 58m 37s.xml">
+      <configuration name="LoanAmountCalculatorTest.oneAndAHalfYears" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanAmountCalculatorTest - 2019.06.03 at 15h 58m 53s.xml">
+      <configuration name="LoanAmountCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanAmountCalculatorTest - 2019.06.03 at 15h 59m 07s.xml">
+      <configuration name="LoanAmountCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.03 at 16h 13m 51s.xml">
+      <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanAmountCalculatorTest_oneAndAHalfYears - 2019.06.03 at 16h 14m 55s.xml">
+      <configuration name="LoanAmountCalculatorTest.oneAndAHalfYears" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.03 at 16h 15m 45s.xml">
+      <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7733000" />
+    <option name="totallyTimeSpent" value="12606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32961586" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32961586" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32961586" />
@@ -291,7 +333,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32961586" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,7 +355,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="loan calculator added" />
-    <option name="LAST_COMMIT_MESSAGE" value="loan calculator added" />
+    <MESSAGE value="Added .gitIgnore" />
+    <MESSAGE value=" .gitIgnore amended" />
+    <MESSAGE value="more tests written and code amended accordingly" />
+    <option name="LAST_COMMIT_MESSAGE" value="more tests written and code amended accordingly" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -323,31 +368,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LoanAmountCalculator.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoanAmountCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoanAmountCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LoanAmountCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="21" column="172" selection-start-line="21" selection-start-column="172" selection-end-line="21" selection-end-column="172" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
