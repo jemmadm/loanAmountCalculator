@@ -14,9 +14,9 @@ public class LoanAmountCalculatorTest {
     }
     @Test
     public void noInterestRate() {
-        assertThat(loanAmountCalculator.calculateAffordableLoanAmountUsingMonthlyPayment(500,0,5))
-                .isEqualTo("The amount you will be able to borrow is £30,000.00. The interest you will pay is £0.00." +
-                        " The total amount you will pay is £30,000.00.");
+        assertThat(loanAmountCalculator.calculateAffordableLoanAmountUsingMonthlyPayment(0.01,0,1))
+                .isEqualTo("The amount you will be able to borrow is £12.00. The interest you will pay is £0.00." +
+                        " The total amount you will pay is £12.00.");
     }
     @Test
     public void hundredPercentInterestRate() {
@@ -54,5 +54,11 @@ public class LoanAmountCalculatorTest {
     public void TotalLoanNoYears() {
         assertThat(loanAmountCalculator.calculateTotalLoanAmountIncludingInterest(500,5,0))
                 .isEqualTo("500");
+    }
+    @Test
+    public void newTest1(){
+        assertThat(loanAmountCalculator.calculateAffordableLoanAmountUsingMonthlyPayment(1,10,1))
+                .isEqualTo("The amount you will be able to borrow is £10.00. The interest you will pay is £1.00." +
+                        " The total amount you will pay is £11.00.");
     }
 }

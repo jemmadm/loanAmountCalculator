@@ -8,21 +8,21 @@ public class LoanAmountCalculator {
     public String calculateAffordableLoanAmountUsingMonthlyPayment(double monthlyRepayment, double interestRate, int yearsToBorrow) {
         double maximumLoanAmountWithInterest = monthlyRepayment * yearsToBorrow * 12;
         double loanAmountWithInterest = 0;
-        double outputLoanAmountWithInterest = 0;
-        double outputLoan = 0;
-        double outputInterest = 0;
-        for (int loanAmount = 0; loanAmountWithInterest <= maximumLoanAmountWithInterest; loanAmount++) {
-            loanAmountWithInterest = loanAmount + (interestRate / 100 * loanAmount);
+        int loanAmount = 0;
 
-            if (loanAmountWithInterest <= maximumLoanAmountWithInterest) {
-                outputLoanAmountWithInterest = loanAmountWithInterest;
-                outputLoan = loanAmount;
-                outputInterest = loanAmountWithInterest - loanAmount;
-            }
+        while (loanAmountWithInterest < maximumLoanAmountWithInterest){
+            loanAmountWithInterest = loanAmount + (interestRate / 100 * loanAmount);
+                    if (loanAmountWithInterest<maximumLoanAmountWithInterest){
+                        loanAmount++;
+                    }
+                    if (loanAmountWithInterest>maximumLoanAmountWithInterest){
+                        loanAmount--;
+                    }
         }
-        String loan = "The amount you will be able to borrow is " + NumberFormat.getCurrencyInstance(Locale.UK).format(outputLoan)
-                + ". The interest you will pay is " + NumberFormat.getCurrencyInstance(Locale.UK).format(outputInterest)
-                + ". The total amount you will pay is " + NumberFormat.getCurrencyInstance(Locale.UK).format(outputLoanAmountWithInterest)
+        loanAmountWithInterest = loanAmount + (interestRate / 100 * loanAmount);
+        String loan = "The amount you will be able to borrow is " + NumberFormat.getCurrencyInstance(Locale.UK).format(loanAmount)
+                + ". The interest you will pay is " + NumberFormat.getCurrencyInstance(Locale.UK).format(loanAmountWithInterest-loanAmount)
+                + ". The total amount you will pay is " + NumberFormat.getCurrencyInstance(Locale.UK).format(loanAmountWithInterest)
                 + ".";
         System.out.println(loan);
         return String.format(loan, "#");
