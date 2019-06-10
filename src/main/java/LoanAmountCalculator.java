@@ -20,6 +20,9 @@ public class LoanAmountCalculator {
                     }
         }
         loanAmountWithInterest = loanAmount + (interestRate / 100 * loanAmount);
+
+//        extract ifs above and add loanAmountWithInterest line to each
+
         String loan = "The amount you will be able to borrow is " + NumberFormat.getCurrencyInstance(Locale.UK).format(loanAmount)
                 + ". The interest you will pay is " + NumberFormat.getCurrencyInstance(Locale.UK).format(loanAmountWithInterest-loanAmount)
                 + ". The total amount you will pay is " + NumberFormat.getCurrencyInstance(Locale.UK).format(loanAmountWithInterest)
