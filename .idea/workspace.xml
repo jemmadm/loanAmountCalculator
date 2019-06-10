@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/LoanAmountCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LoanAmountCalculator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/LoanAmountCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LoanAmountCalculatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoanAmountCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoanAmountCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LoanAmountCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoanAmountCalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LoanAmountCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="139">
+              <caret line="21" column="80" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/LoanAmountCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+            <state relative-caret-position="507">
+              <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,21 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoanAmountCalculatorTest">
-    <configuration name="Cfr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cfr" />
-      <module name="loan.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoanAmountCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LoanAmountCalculator" />
-      <module name="loan.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LoanAmountCalculatorTest.newTest2">
     <configuration name="LoanAmountCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="loan.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -213,11 +198,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoanAmountCalculatorTest.newTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="loan.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LoanAmountCalculatorTest" />
-      <option name="METHOD_NAME" value="monthlyRepaymentIncludesPence" />
+      <option name="METHOD_NAME" value="newTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoanAmountCalculatorTest.newTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="loan.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoanAmountCalculatorTest" />
+      <option name="METHOD_NAME" value="newTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoanAmountCalculatorTest.noInterestRate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="loan.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoanAmountCalculatorTest" />
+      <option name="METHOD_NAME" value="noInterestRate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -225,10 +230,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoanAmountCalculatorTest.newTest2" />
         <item itemvalue="JUnit.LoanAmountCalculatorTest" />
-        <item itemvalue="Application.LoanAmountCalculator" />
-        <item itemvalue="JUnit.LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" />
-        <item itemvalue="Application.Cfr" />
+        <item itemvalue="JUnit.LoanAmountCalculatorTest.newTest1" />
+        <item itemvalue="JUnit.LoanAmountCalculatorTest.noInterestRate" />
         <item itemvalue="JUnit.LoanAmountCalculatorTest.doesCalculatorWork" />
       </list>
     </recent_temporary>
@@ -245,7 +250,7 @@
       <updated>1559421560426</updated>
       <workItem from="1559421562168" duration="17115000" />
       <workItem from="1559725429006" duration="10000" />
-      <workItem from="1559726266095" duration="6590000" />
+      <workItem from="1559726266095" duration="14054000" />
     </task>
     <task id="LOCAL-00001" summary="loan calculator added">
       <created>1559430854320</created>
@@ -289,43 +294,57 @@
       <option name="project" value="LOCAL" />
       <updated>1559662427201</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="amended all tests to pass">
+      <created>1560163659269</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560163659269</updated>
+    </task>
+    <task id="LOCAL-00008" summary="amended for each/if to do while if and added new test">
+      <created>1560185110568</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560185110568</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.05 at 16h 52m 45s.xml">
-      <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" configurationId="JUnit" />
+    <history-entry file="LoanAmountCalculatorTest_newTest1 - 2019.06.10 at 17h 35m 08s.xml">
+      <configuration name="LoanAmountCalculatorTest.newTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.05 at 16h 53m 16s.xml">
-      <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" configurationId="JUnit" />
+    <history-entry file="LoanAmountCalculatorTest_newTest1 - 2019.06.10 at 17h 37m 34s.xml">
+      <configuration name="LoanAmountCalculatorTest.newTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.05 at 16h 53m 26s.xml">
-      <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" configurationId="JUnit" />
+    <history-entry file="LoanAmountCalculatorTest_newTest1 - 2019.06.10 at 17h 38m 40s.xml">
+      <configuration name="LoanAmountCalculatorTest.newTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.05 at 16h 54m 28s.xml">
-      <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" configurationId="JUnit" />
+    <history-entry file="LoanAmountCalculatorTest_newTest1 - 2019.06.10 at 17h 40m 33s.xml">
+      <configuration name="LoanAmountCalculatorTest.newTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.05 at 16h 56m 48s.xml">
-      <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" configurationId="JUnit" />
+    <history-entry file="LoanAmountCalculatorTest_newTest1 - 2019.06.10 at 17h 42m 09s.xml">
+      <configuration name="LoanAmountCalculatorTest.newTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.05 at 16h 59m 33s.xml">
-      <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" configurationId="JUnit" />
+    <history-entry file="LoanAmountCalculatorTest_newTest1 - 2019.06.10 at 17h 42m 11s.xml">
+      <configuration name="LoanAmountCalculatorTest.newTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.05 at 17h 01m 23s.xml">
-      <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" configurationId="JUnit" />
+    <history-entry file="LoanAmountCalculatorTest_newTest1 - 2019.06.10 at 17h 43m 13s.xml">
+      <configuration name="LoanAmountCalculatorTest.newTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanAmountCalculatorTest - 2019.06.10 at 11h 39m 52s.xml">
-      <configuration name="LoanAmountCalculatorTest" configurationId="JUnit" />
+    <history-entry file="LoanAmountCalculatorTest_newTest1 - 2019.06.10 at 17h 44m 23s.xml">
+      <configuration name="LoanAmountCalculatorTest.newTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanAmountCalculatorTest - 2019.06.10 at 11h 41m 21s.xml">
-      <configuration name="LoanAmountCalculatorTest" configurationId="JUnit" />
+    <history-entry file="LoanAmountCalculatorTest_newTest1 - 2019.06.10 at 17h 44m 42s.xml">
+      <configuration name="LoanAmountCalculatorTest.newTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanAmountCalculatorTest - 2019.06.10 at 11h 43m 49s.xml">
+    <history-entry file="LoanAmountCalculatorTest - 2019.06.10 at 17h 45m 21s.xml">
       <configuration name="LoanAmountCalculatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23715000" />
+    <option name="totallyTimeSpent" value="31179000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,8 +368,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26950353" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32928064" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32522798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32961586" />
@@ -383,7 +402,18 @@
     <MESSAGE value="more tests written and code amended accordingly" />
     <MESSAGE value="more tests added" />
     <MESSAGE value="added second method and new tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added second method and new tests" />
+    <MESSAGE value="amended all tests to pass" />
+    <MESSAGE value="amended for each/if to do while if and added new test" />
+    <option name="LAST_COMMIT_MESSAGE" value="amended for each/if to do while if and added new test" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>loanAmount==11</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -412,8 +442,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LoanAmountCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="139">
+          <caret line="21" column="80" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -422,8 +452,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LoanAmountCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+        <state relative-caret-position="507">
+          <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
