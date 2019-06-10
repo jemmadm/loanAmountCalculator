@@ -9,32 +9,32 @@ public class LoanAmountCalculatorTest {
     @Test
     public void doesCalculatorWork() {
         assertThat(loanAmountCalculator.calculateAffordableLoanAmountUsingMonthlyPayment(400, 5, 1))
-                .isEqualTo("The amount you will be able to borrow is £4571. The interest you will pay is £228.55." +
-                        " The total amount you will pay is £4799.55.");
+                .isEqualTo("The amount you will be able to borrow is £4,571.00. The interest you will pay is £228.55." +
+                        " The total amount you will pay is £4,799.55.");
     }
     @Test
     public void noInterestRate() {
         assertThat(loanAmountCalculator.calculateAffordableLoanAmountUsingMonthlyPayment(500,0,5))
-                .isEqualTo("The amount you will be able to borrow is £30000. The interest you will pay is £0." +
-                        " The total amount you will pay is £30000.");
+                .isEqualTo("The amount you will be able to borrow is £30,000.00. The interest you will pay is £0.00." +
+                        " The total amount you will pay is £30,000.00.");
     }
     @Test
     public void hundredPercentInterestRate() {
         assertThat(loanAmountCalculator.calculateAffordableLoanAmountUsingMonthlyPayment(100,100,1))
-                .isEqualTo("The amount you will be able to borrow is £600. The interest you will pay is £600." +
-                        " The total amount you will pay is £1200.");
+                .isEqualTo("The amount you will be able to borrow is £600.00. The interest you will pay is £600.00." +
+                        " The total amount you will pay is £1,200.00.");
     }
     @Test
     public void noYears() {
         assertThat(loanAmountCalculator.calculateAffordableLoanAmountUsingMonthlyPayment(500,5,0))
-        .isEqualTo("The amount you will be able to borrow is £0. The interest you will pay is £0." +
-                " The total amount you will pay is £0.");
+        .isEqualTo("The amount you will be able to borrow is £0.00. The interest you will pay is £0.00." +
+                " The total amount you will pay is £0.00.");
     }
     @Test
     public void monthlyRepaymentIncludesPence() {
         assertThat(loanAmountCalculator.calculateAffordableLoanAmountUsingMonthlyPayment(100.50,10,1))
-        .isEqualTo("The amount you will be able to borrow is £1096. The interest you will pay is £109.6." +
-                " The total amount you will pay is £1205.6.");
+        .isEqualTo("The amount you will be able to borrow is £1,096.00. The interest you will pay is £109.60." +
+                " The total amount you will pay is £1,205.60.");
     }
     @Test
     public void calculateTotalLoanAmount(){

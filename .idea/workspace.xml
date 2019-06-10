@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/LoanAmountCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LoanAmountCalculator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/LoanAmountCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LoanAmountCalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoanAmountCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoanAmountCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LoanAmountCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoanAmountCalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,12 +36,12 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LoanAmountCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="21" column="172" selection-start-line="21" selection-start-column="172" selection-end-line="21" selection-end-column="172" />
+            <state relative-caret-position="255">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/LoanAmountCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,8 +66,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -78,14 +79,17 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/Cfr.java" />
         <option value="$PROJECT_DIR$/src/main/java/LoanAmountCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoanAmountCalculatorTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="-254" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -93,8 +97,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,6 +139,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,7 +179,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoanAmountCalculatorTest.monthlyRepaymentIncludesPence">
+  <component name="RunManager" selected="JUnit.LoanAmountCalculatorTest">
+    <configuration name="Cfr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cfr" />
+      <module name="loan.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoanAmountCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoanAmountCalculator" />
+      <module name="loan.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoanAmountCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="loan.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -185,11 +203,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoanAmountCalculatorTest.hundredPercentInterestRate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoanAmountCalculatorTest.doesCalculatorWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="loan.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LoanAmountCalculatorTest" />
-      <option name="METHOD_NAME" value="hundredPercentInterestRate" />
+      <option name="METHOD_NAME" value="doesCalculatorWork" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -205,33 +223,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoanAmountCalculatorTest.noInterestRate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="loan.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoanAmountCalculatorTest" />
-      <option name="METHOD_NAME" value="noInterestRate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoanAmountCalculatorTest.oneAndAHalfYears" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="loan.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoanAmountCalculatorTest" />
-      <option name="METHOD_NAME" value="oneAndAHalfYears" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" />
-        <item itemvalue="JUnit.LoanAmountCalculatorTest.oneAndAHalfYears" />
         <item itemvalue="JUnit.LoanAmountCalculatorTest" />
-        <item itemvalue="JUnit.LoanAmountCalculatorTest.hundredPercentInterestRate" />
-        <item itemvalue="JUnit.LoanAmountCalculatorTest.noInterestRate" />
+        <item itemvalue="Application.LoanAmountCalculator" />
+        <item itemvalue="JUnit.LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" />
+        <item itemvalue="Application.Cfr" />
+        <item itemvalue="JUnit.LoanAmountCalculatorTest.doesCalculatorWork" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +243,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559421560426</updated>
-      <workItem from="1559421562168" duration="12606000" />
+      <workItem from="1559421562168" duration="17115000" />
+      <workItem from="1559725429006" duration="10000" />
+      <workItem from="1559726266095" duration="6590000" />
     </task>
     <task id="LOCAL-00001" summary="loan calculator added">
       <created>1559430854320</created>
@@ -275,79 +275,102 @@
       <option name="project" value="LOCAL" />
       <updated>1559572548471</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="more tests added">
+      <created>1559575864145</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559575864145</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added second method and new tests">
+      <created>1559662427201</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559662427201</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoanAmountCalculatorTest - 2019.06.03 at 15h 57m 51s.xml">
-      <configuration name="LoanAmountCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanAmountCalculatorTest - 2019.06.03 at 15h 58m 03s.xml">
-      <configuration name="LoanAmountCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_oneAndAHalfYears - 2019.06.03 at 15h 58m 23s.xml">
-      <configuration name="LoanAmountCalculatorTest.oneAndAHalfYears" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_oneAndAHalfYears - 2019.06.03 at 15h 58m 29s.xml">
-      <configuration name="LoanAmountCalculatorTest.oneAndAHalfYears" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_oneAndAHalfYears - 2019.06.03 at 15h 58m 37s.xml">
-      <configuration name="LoanAmountCalculatorTest.oneAndAHalfYears" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanAmountCalculatorTest - 2019.06.03 at 15h 58m 53s.xml">
-      <configuration name="LoanAmountCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanAmountCalculatorTest - 2019.06.03 at 15h 59m 07s.xml">
-      <configuration name="LoanAmountCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.03 at 16h 13m 51s.xml">
+    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.05 at 16h 52m 45s.xml">
       <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_oneAndAHalfYears - 2019.06.03 at 16h 14m 55s.xml">
-      <configuration name="LoanAmountCalculatorTest.oneAndAHalfYears" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.03 at 16h 15m 45s.xml">
+    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.05 at 16h 53m 16s.xml">
       <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.05 at 16h 53m 26s.xml">
+      <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.05 at 16h 54m 28s.xml">
+      <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.05 at 16h 56m 48s.xml">
+      <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.05 at 16h 59m 33s.xml">
+      <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanAmountCalculatorTest_monthlyRepaymentIncludesPence - 2019.06.05 at 17h 01m 23s.xml">
+      <configuration name="LoanAmountCalculatorTest.monthlyRepaymentIncludesPence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanAmountCalculatorTest - 2019.06.10 at 11h 39m 52s.xml">
+      <configuration name="LoanAmountCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanAmountCalculatorTest - 2019.06.10 at 11h 41m 21s.xml">
+      <configuration name="LoanAmountCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanAmountCalculatorTest - 2019.06.10 at 11h 43m 49s.xml">
+      <configuration name="LoanAmountCalculatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12606000" />
+    <option name="totallyTimeSpent" value="23715000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-254" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19116081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.32961586" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32961586" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32961586" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26950353" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32961586" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32961586" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32961586" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32928064" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,7 +381,9 @@
     <MESSAGE value="Added .gitIgnore" />
     <MESSAGE value=" .gitIgnore amended" />
     <MESSAGE value="more tests written and code amended accordingly" />
-    <option name="LAST_COMMIT_MESSAGE" value="more tests written and code amended accordingly" />
+    <MESSAGE value="more tests added" />
+    <MESSAGE value="added second method and new tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added second method and new tests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -378,20 +403,27 @@
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoanAmountCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cfr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LoanAmountCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LoanAmountCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoanAmountCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="21" column="172" selection-start-line="21" selection-start-column="172" selection-end-line="21" selection-end-column="172" />
+        <state relative-caret-position="255">
+          <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

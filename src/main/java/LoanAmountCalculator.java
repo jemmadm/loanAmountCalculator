@@ -1,4 +1,6 @@
 import java.text.DecimalFormat;
+import java.text.NumberFormat;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class LoanAmountCalculator {
@@ -18,12 +20,12 @@ public class LoanAmountCalculator {
                 outputInterest = loanAmountWithInterest - loanAmount;
             }
         }
-        String loan = "The amount you will be able to borrow is £" + new DecimalFormat("##.##").format(outputLoan)
-                + ". The interest you will pay is £" + new DecimalFormat("##.##").format(outputInterest)
-                + ". The total amount you will pay is £" + new DecimalFormat("##.##").format(outputLoanAmountWithInterest)
+        String loan = "The amount you will be able to borrow is " + NumberFormat.getCurrencyInstance(Locale.UK).format(outputLoan)
+                + ". The interest you will pay is " + NumberFormat.getCurrencyInstance(Locale.UK).format(outputInterest)
+                + ". The total amount you will pay is " + NumberFormat.getCurrencyInstance(Locale.UK).format(outputLoanAmountWithInterest)
                 + ".";
         System.out.println(loan);
-        return loan;
+        return String.format(loan, "#");
     }
     public static void main(String[] args) {
         System.out.println("Loan Calculator!");
