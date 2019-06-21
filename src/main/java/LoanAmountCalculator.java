@@ -12,12 +12,7 @@ public class LoanAmountCalculator {
 
         while (loanAmountWithInterest < maximumLoanAmountWithInterest){
             loanAmountWithInterest = loanAmount + (interestRate / 100 * loanAmount);
-                    if (loanAmountWithInterest<maximumLoanAmountWithInterest){
-                        loanAmount++;
-                    }
-                    if (loanAmountWithInterest>maximumLoanAmountWithInterest){
-                        loanAmount--;
-                    }
+            loanAmount = getLoanAmount(maximumLoanAmountWithInterest, loanAmountWithInterest, loanAmount);
         }
         loanAmountWithInterest = loanAmount + (interestRate / 100 * loanAmount);
 
@@ -30,6 +25,17 @@ public class LoanAmountCalculator {
         System.out.println(loan);
         return String.format(loan, "#");
     }
+
+    private int getLoanAmount(double maximumLoanAmountWithInterest, double loanAmountWithInterest, int loanAmount) {
+        if (loanAmountWithInterest<maximumLoanAmountWithInterest){
+            loanAmount++;
+        }
+        if (loanAmountWithInterest>maximumLoanAmountWithInterest){
+            loanAmount--;
+        }
+        return loanAmount;
+    }
+
     public static void main(String[] args) {
         System.out.println("Loan Calculator!");
         System.out.println("Would you like to work out how much your loan will be based on affordability or a fixed loan amount?"

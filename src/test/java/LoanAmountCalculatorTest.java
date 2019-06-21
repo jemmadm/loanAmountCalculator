@@ -14,7 +14,7 @@ public class LoanAmountCalculatorTest {
     }
     @Test
     public void noInterestRate() {
-        assertThat(loanAmountCalculator.calculateAffordableLoanAmountUsingMonthlyPayment(0.01,0,1))
+        assertThat(loanAmountCalculator.calculateAffordableLoanAmountUsingMonthlyPayment(1.00,0,1))
                 .isEqualTo("The amount you will be able to borrow is £12.00. The interest you will pay is £0.00." +
                         " The total amount you will pay is £12.00.");
     }
